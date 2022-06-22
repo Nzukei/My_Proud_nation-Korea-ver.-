@@ -56,7 +56,7 @@ water = water.rotate(90 + 33.69, expand=True, fillcolor=(241, 241, 241))
 
 img.paste(water, (h * 96 // 96, h * 9 // 96))
 
-# 이 = 불 = 결실
+# 리 = 불 = 결실
 fire = Image.new('RGB', (h // 4, h // 6), color=(14, 14, 14))
 draw = ImageDraw.Draw(fire)
 
