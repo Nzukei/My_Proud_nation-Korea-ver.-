@@ -75,5 +75,8 @@ draw.rectangle((h * 11 // 96, h * 3 // 48, h * 13 // 96, h * 5 // 48), fill=(241
 fire = fire.rotate(90 + 33.69, expand=True, fillcolor=(241, 241, 241))
 
 img.paste(fire, (h * 22 // 96, h * 59 // 96))
+```
+> 태극기 출력하기
+```py
 img.show()
 ```
